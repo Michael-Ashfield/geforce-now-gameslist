@@ -74,7 +74,6 @@
         <th data-sort="title">Title</th>
         <th data-sort="isFullyOptimized">Is Fully Optimized</th>
         <th data-sort="isHighlightsSupported">Is Highlights Supported</th>
-        <th>Steam Url</th>
         <th data-sort="publisher">Publisher</th>
         <th data-sort="genres">Genres</th>
         <th data-sort="status">Status</th>
@@ -83,13 +82,20 @@
         <td>{item.id}</td>
 
         <td>
-          <b>{item.title}</b>
+          <b>
+            <a href={item.steamUrl} title={item.title}>{item.title}</a>
+          </b>
         </td>
-        <td>{item.isFullyOptimized}</td>
-        <td>{item.isHighlightsSupported}</td>
-        <td>{item.steamUrl}</td>
+        <td>
+          {#if item.isFullyOptimized}Yes{:else}No{/if}
+        </td>
+        <td>
+          {#if item.isHighlightsSupported}Yes{:else}No{/if}
+        </td>
         <td>{item.publisher}</td>
-        <td>{item.genres}</td>
+        <td>
+          {item.genres}
+        </td>
         <td>{item.status}</td>
 
       </tr>
