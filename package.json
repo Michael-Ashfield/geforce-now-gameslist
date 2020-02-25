@@ -1,0 +1,22 @@
+{
+  "name": "geforce-now-gameslist",
+  "version": "1.0.0",
+  "description": "geforce-now-gameslist",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lettuceboop/geforce-now-gameslist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lettuceboop/geforce-now-gameslist/issues"
+  },
+  "homepage": "https://github.com/lettuceboop/geforce-now-gameslist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
