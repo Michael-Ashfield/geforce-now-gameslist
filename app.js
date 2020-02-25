@@ -9,7 +9,9 @@ const header1 = "<h1><u>Geforce Now Game List</u></h1>"
 const header2 = `
 <h3>This is a table directly from the current Nvidia's 
 	<a href="' + url + '"> JSON data here.</a> 
-	<a href="https://github.com/lettuceboop/geforce-now-gameslist">The code for this project is open source here.</a>
+	<br>
+	💕 Please feel free to contribute code to the project 
+	<a href="https://github.com/lettuceboop/geforce-now-gameslist">here</a>	💕
 </h3>`
 app.get('/', function (req, res) {
 	fetch(url, settings)
