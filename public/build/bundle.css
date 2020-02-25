@@ -1,0 +1,4 @@
+table td, table th{border:1px solid silver}.descending:after, .ascending:after{content:" ";position:relative;left:5px;border:5px solid transparent}.descending:after{top:14px;border-top-color:silver}.ascending:after{bottom:12px;border-bottom-color:silver}.descending, .ascending{padding-right:10px}
+thead.svelte-1h7c4zv th.sortable{cursor:pointer;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none}
+
+/*# sourceMappingURL=bundle.css.map */
